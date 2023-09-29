@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web Design",
     icon: creator,
   },
 ];
@@ -198,9 +198,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Nick Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The Nick Store is a vibrant and nostalgic retail destination.  the Nick Store is a fun and immersive shopping experience that celebrates the whimsy and creativity of Nickelodeon's unforgettable world.",
     tags: [
       {
         name: "react",
@@ -215,13 +215,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: jobit,
+    source_code_link: "https://github.com/Arunraj-Logaraj/Nick_store",
   },
   {
-    name: "Job IT",
+    name: "NetFlix Mini",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Netflix is a globally renowned streaming platform that offers a vast library of movies, TV shows, documentaries, and original content. With a user-friendly interface.",
     tags: [
       {
         name: "react",
@@ -236,13 +236,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tripguide,
+    source_code_link: "https://github.com/Arunraj-Logaraj/NetFlix_Mini",
   },
   {
-    name: "Trip Guide",
+    name: "My Shopping",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Shopping is the enjoyable and often essential activity of selecting and purchasing products or services from various retailers, both in physical stores and online.",
     tags: [
       {
         name: "nextjs",
@@ -257,8 +257,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: carrent,
+    source_code_link: "https://github.com/Arunraj-Logaraj/Shopping_hub",
   },
 ];
 

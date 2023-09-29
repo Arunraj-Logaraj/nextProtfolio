@@ -27,7 +27,7 @@ const Hero = () => {
             Hi, I'm <span>Arun</span>{" "}
           </h1> */}
           <h1
-            className={`${styles.heroHeadText} animate-text bg-gradient-to-r from-indigo-700 via-pink-700 to-pink-200 bg-clip-text text-9xl font-semibold text-transparent `}
+            className={`${styles.heroHeadText} text-center animate-text bg-gradient-to-r from-indigo-900 via-pink-700 to-pink-100 bg-clip-text text-9xl font-semibold text-transparent `}
           >
             {/* Hi, I'm <span className="text-violet-800">Arun</span>{" "} */}
             Hi, I'm Arun{" "}
@@ -36,9 +36,9 @@ const Hero = () => {
           <p
             className={`${styles.heroSubText} mb-2  text-white-100  text-center`}
           >
-            I develop 3D visuals, user
+            I Am a ReactJS Developer
             <br className=" sm:block hidden" />
-            interfaces and web applications
+           in web applications and web design
           </p>
         </div>
       </div>

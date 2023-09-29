@@ -22,9 +22,7 @@ const ServiceCard = ({ index, title, icon }) => {
           }}
           className={` ${
             index % 2 == 0 ? "bg-indigo-600" : "bg-pink-600"
-          } rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col  ${
-            index % 2 == 0 ? "hover:bg-pink-600" : " hover:bg-indigo-600"
-          }   `}
+          } rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col hover:bg-gradient-to-r from-pink-600 to-indigo-600   `}
         >
           <img
             src={icon}
@@ -54,10 +52,11 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        JavaScript, and expertise in frameworks like React, Redux, Redux-Toolkit
+        Boostrap and Sass. I'm a quick learner and collaborate closely with
+        clients to create efficient, scalable, and user-friendly solutions that
+        solve real-world problems. Let's work together to bring your ideas to
+        life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
