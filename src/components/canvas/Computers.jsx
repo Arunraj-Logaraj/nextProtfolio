@@ -8,8 +8,8 @@ import CanvasLoader from "../Loader";
 // extend({ Mesh, hemisphereLight, spotLight });
 
 const Computers = ({ isMobile }) => {
-  // const computer = useGLTF("./desktop_pc/scene.gltf");
-  const computer = useGLTF("./batman/scene.gltf");
+  const computer = useGLTF("./desktop_pc/scene.gltf");
+  // const computer = useGLTF("./batman/scene.gltf");
 
   return (
     <mesh>
@@ -24,11 +24,12 @@ const Computers = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <primitive
-        scale={isMobile ? 3.7 : 4.75}
+        // scale={isMobile ? 3.7 : 4.75}
+        scale={isMobile ? 0.7 : 0.75}
         object={computer.scene}
-        // position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        position={isMobile ? [0, -7.6, -2.2] : [0, -10.0, -1.5]}
-        // rotation={[-0.01, -0.2, -0.1]}
+        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        // position={isMobile ? [0, -7.6, -2.2] : [0, -10.0, -1.5]}
+        rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
   );
@@ -55,8 +56,8 @@ const ComputerCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      // camera={{ position: [20, 3, 5], fov: 25 }}
-      camera={{ position: [0, 30, 4], fov: 15 }}
+      camera={{ position: [20, 3, 5], fov: 25 }}
+      // camera={{ position: [0, 30, 4], fov: 15 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
