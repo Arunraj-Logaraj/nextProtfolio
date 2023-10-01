@@ -21,7 +21,7 @@ const Earth = () => {
 
 const EarthCanvas = () => {
   return (
-    <>
+    <>  
       <Canvas
         shadows
         frameloop="demand"
