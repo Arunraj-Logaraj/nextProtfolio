@@ -1,7 +1,7 @@
 import React from "react";
 import { styles } from "../styles";
 import { motion } from "framer-motion";
-import { ComputersCanvas } from "./canvas";
+import { ComputersCanvas, EarthCanvas } from "./canvas";
 import { Link } from "react-scroll";
 
 // background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
@@ -42,7 +42,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
+      <EarthCanvas />
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center cursor-pointer">
         <Link
           activeClass="active"
