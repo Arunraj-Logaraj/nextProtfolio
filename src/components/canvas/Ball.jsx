@@ -1,4 +1,4 @@
-import React, { Suspense, useState, useEffect } from "react";
+import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -37,18 +37,6 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
-  const [initialized, setInitialized] = useState(false);
-
-  useEffect(() => {
-    if (!initialized) {
-      setInitialized(true);
-    }
-  }, [initialized]);
-
-  if (!initialized) {
-    return <div></div>;
-  }
-
   return (
     <Canvas
       frameloop="demand"
