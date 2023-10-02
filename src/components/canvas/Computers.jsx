@@ -52,6 +52,18 @@ const ComputerCanvas = () => {
     };
   }, []);
 
+  const [initialized, setInitialized] = useState(false);
+
+  useEffect(() => {
+    if (!initialized) {
+      setInitialized(true);
+    }
+  }, [initialized]);
+
+  if (!initialized) {
+    return <div></div>;
+  }
+
   return (
     <Canvas
       frameloop="demand"
